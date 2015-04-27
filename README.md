@@ -1,1 +1,1 @@
-# mac-bash_profile
+# mac-profiles
