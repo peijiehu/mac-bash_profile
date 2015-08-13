@@ -4,6 +4,7 @@ alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m' # requires you to type a commit message
 alias gl='git log'
+alias be='bundle exec'
 
 export CLICOLOR=1
 
