@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/phu/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -7,7 +7,7 @@ export ZSH=/Users/phu/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 
-[[ -n "$SSH_CLIENT" ]] || export DEFAULT_USER="phu"
+[[ -n "$SSH_CLIENT" ]] || export DEFAULT_USER="peijie"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -55,7 +55,7 @@ plugins=(brew bundler chruby docker gem git node npm ruby z)
 
 # User configuration
 
-export PATH="/usr/local/oracle/product/instantclient_64/11.2.0.3.0/bin:/Users/phu/.avn/bin:/Users/phu/.avn/bin:/Users/phu/.nvm/versions/node/v0.12.0/bin:./node_modules/.bin:.bundle/binstubs:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/phu/source/idg/bin:/usr/local/go/bin:/Users/phu/gocode/bin"
+export PATH="$HOME/.avn/bin:$HOME/.avn/bin:$HOME/.nvm/versions/node/v0.12.0/bin:./node_modules/.bin:.bundle/binstubs:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/go/bin:$HOME/gocode/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
